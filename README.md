@@ -4,10 +4,19 @@ Valkyrie's Pager is firmware for an ESP32-C3 device with an ST7789 display. It c
 
 ## Hardware
 
-- Board: ESP32-C3-DevKitM-1
-- Display: ST7789, 320 x 240 pixels
-- Input: enter/back, down, and up buttons
-- Battery measurement: analogue input on GPIO 1
+![Circuit Schematic](images/schematic.svg)
+*(See [images/schematic.svg](images/schematic.svg) for the full wiring diagram)*
+
+**Components List:**
+- ESP32-C3 Super Mini — 1 pc.
+- TP4056 (USB-C charging module) — 1 pc.
+- LiPo battery 3.7V — 1 pc.
+- Display (ST7789, 320 x 240 pixels) — 1 pc.
+- Slide switch (SS12D00) — 1 pc.
+- Tactile buttons (6x6x5 mm or smaller) — 3 pcs.
+- Resistors 100 kOhm — 2 pcs. (for battery voltage divider)
+- Capacitor 470 µF 10V — 1 pc. (electrolytic)
+- 30AWG wire (thin mounting wires)
 
 Pin assignments are defined in [include/AppConfig.h](include/AppConfig.h).
 
