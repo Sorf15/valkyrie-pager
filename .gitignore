@@ -1,0 +1,22 @@
+# PlatformIO build output and local dependency cache
+.pio/
+
+# Visual Studio Code workspace files generated per machine
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch/
+
+# Editor and operating-system files
+*.code-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local secrets and environment overrides
+.env
+.env.*
+.agents/
+!example.env
